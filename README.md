@@ -1,8 +1,4 @@
-# Unit 12 MySQL Homework: Employee Tracker
-
-This application is a backend solution for managing a company's employees using node.js, inquirer, and MySQL. The interface functions as a Content Management System for non-developers to easily view and interact with information stored in the database from the terminal.
-
-# User Story
+User Story
 
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
@@ -10,7 +6,7 @@ SO THAT I can organize and plan my business
 
 
 
-# Acceptance Criteria
+Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
 WHEN I start the application
@@ -29,3 +25,10 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
+
+
+
+# installations 
+npm install --save inquirer@^8.0.0
+npm install mysql2
+npm install console.table
